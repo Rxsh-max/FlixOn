@@ -1,12 +1,74 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+📦 flixOn
+A movies website .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧰 Tech Stack
 
-## Expanding the ESLint configuration
+React (v18+)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+JavaScript
+
+Database - appwrite
+
+MoviesAPI - TMDB
+
+Optimised Search - Debounce hook
+
+Styled Components / TailwindCSS / CSS Modules (choose one)
+
+🚀 Getting Started
+These instructions will help you set up and run the project on your local machine.
+
+Prerequisites
+Node.js (v18 or newer recommended)
+
+npm or yarn
+
+Installation
+bash
+Copy
+Edit
+# Clone the repo
+git clone https://github.com/your-username/project-name.git
+
+# Navigate into the directory
+cd project-name
+
+# Install dependencies
+npm install
+# or
+yarn install
+Running the App
+bash
+Copy
+Edit
+npm start
+# or
+yarn start
+Open http://localhost:3000 to view it in the browser.
+
+🛠️ Available Scripts
+In the project directory, you can run:
+
+npm start – Runs the app in development mode.
+
+npm run build – Builds the app for production.
+
+npm test – Launches the test runner.
+
+npm run lint – Lints the codebase (if configured).
+
+📦 Deployment
+You can deploy this project using:
+
+Vercel
+
+Netlify // https://flixone.netlify.app/
+
+GitHub Pages
+
+Firebase Hosting
+
+📄 License
+This project is licensed under the MIT License.
